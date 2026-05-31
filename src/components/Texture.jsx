@@ -9,7 +9,7 @@ export default function Texture() {
           backgroundImage: `url(${texture})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          opacity: 0.9,
+          opacity: 0.5,
           filter: "grayscale(100%) contrast(140%)"
         }}
       />
