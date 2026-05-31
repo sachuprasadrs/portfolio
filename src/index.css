@@ -21,3 +21,9 @@ body {
 .noir-heading {
   font-family: 'Cormorant Garamond', serif;
 }
+
+section {
+
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+
+}

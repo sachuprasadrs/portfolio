@@ -28,6 +28,11 @@ export default function Navbar() {
             Contact
           </a>
 
+          <a href="#education">
+            Education
+          </a>
+
+
         </div>
 
       </div>

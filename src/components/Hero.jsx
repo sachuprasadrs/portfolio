@@ -1,3 +1,5 @@
+import { profile } from "../data/profile"
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center px-8">
@@ -5,26 +7,24 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto w-full">
 
         <p className="uppercase tracking-[0.5em] text-zinc-600 mb-6">
-          Software Engineer
+          {profile.role}
         </p>
 
-        <h1 className="noir-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light leading-none">
-          SACHUPRASAD
-          <br />
-          R S
+        <h1 className="noir-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light leading-none">
+          {profile.name}
         </h1>
 
         <div className="w-40 h-px bg-zinc-700 my-10" />
 
         <p className="text-zinc-400 text-lg md:text-xl leading-9 max-w-2xl">
-          Full-Stack Development • AI/ML Engineering
-          <br />
-          Building scalable software systems,
-          intelligent applications,
-          and practical solutions to real-world problems.
+          {profile.tagline}
         </p>
 
-        <div className="flex flex-wrap gap-4 mt-10">
+        <p className="text-zinc-500 mt-6 max-w-2xl text-lg leading-8">
+          {profile.description}
+        </p>
+
+        <div className="flex gap-4 mt-10">
 
           <a
             href="#projects"
@@ -34,7 +34,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://github.com/sachuprasadrs"
+            href={profile.github}
             target="_blank"
             rel="noreferrer"
             className="border border-zinc-700 px-6 py-3 hover:bg-white hover:text-black transition"
