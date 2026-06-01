@@ -3,17 +3,17 @@ export const projects = [
     id: 1,
     title: "LifeLink",
     description:
-      "Hospital management system with appointment booking, doctor management, billing, prescriptions, and home consultation services.",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "Hospital management platform supporting appointments, prescriptions, billing, doctor management, and patient services.",
+    tech: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
     github: "",
     demo: "",
   },
 
   {
     id: 2,
-    title: "Driver Drowsiness Detection System",
+    title: "StayAwake",
     description:
-      "Computer vision based safety system that detects driver fatigue and alerts users to prevent accidents.",
+      "Driver drowsiness detection system using computer vision and real-time alert mechanisms to improve road safety.",
     tech: ["Python", "OpenCV", "Machine Learning"],
     github: "",
     demo: "",
@@ -23,27 +23,37 @@ export const projects = [
     id: 3,
     title: "BagYourShoe",
     description:
-      "Full-stack e-commerce platform for footwear shopping with authentication, cart, wishlist, order management, and admin dashboard.",
-    tech: ["Django", "SQLite", "Bootstrap", "HTML", "CSS"],
+      "Full-stack e-commerce platform with authentication, cart, wishlist, order tracking, and admin management.",
+    tech: ["Django", "SQLite", "Bootstrap"],
     github: "",
     demo: "",
   },
 
   {
     id: 4,
-    title: "Emotion Classification using Graph Attention Networks",
+    title: "LexRedact",
     description:
-      "Context-aware emotion classification system using Graph Attention Networks for improved sentiment and emotion detection.",
-    tech: ["Python", "PyTorch", "NLP", "GNN"],
+      "Policy-aware document redaction system that detects sensitive information through OCR and applies irreversible privacy-preserving redactions with audit logging.",
+    tech: ["Python", "Streamlit", "Tesseract OCR", "SQLite"],
     github: "",
     demo: "",
   },
 
   {
     id: 5,
+    title: "EmotiSpec",
+    description:
+      "Context-aware emotion classification system using Graph Attention Networks for improved emotion understanding in text.",
+    tech: ["Python", "PyTorch", "NLP", "GNN"],
+    github: "",
+    demo: "",
+  },
+
+  {
+    id: 6,
     title: "CampusKarma",
     description:
-      "Peer-help platform connecting students for collaboration, mentoring, and academic support.",
+      "Student peer-help platform focused on collaboration, mentoring, doubt resolution, and knowledge sharing.",
     tech: ["Django", "PostgreSQL", "Docker"],
     github: "",
     demo: "",
